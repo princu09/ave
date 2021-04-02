@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.heading-title {
+    color: darkorange;
+}
+
+i {
+    color: darkorange;
+    transition: 0.5s color ease;
+}
+
+i:hover {
+    color: black;
+}
+
+a {
+    color: black;
+    transition: 0.5s color ease;
+}
+
+a:hover {
+    color: darkorange;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    color: #3b5999;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-instagram {
+    color: #e4405f;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+    color: darkorange;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: darkorange !important;
+}
+
+.navbar-nav .active .nav-link {
+    color: darkorange !important;
+}
+
+
+/* homepage style */
+
+.home-page {
+    min-height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(../img/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home-page .data {
+    margin: 5rem 0;
+}
+
+.small-icons {
+    padding: 5rem 0;
+}
+
+.icon i {
+    font-size: 2.5rem;
+}
+
+.initial-concepts .col-md-3:nth-child(1) {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/img1.jpg);
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 220px;
+    max-height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 5px;
+}
+
+.initial-concepts .col-md-3:nth-child(2) {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/img2.jpg);
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 220px;
+    max-height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 5px;
+}
+
+.initial-concepts .col-md-3:nth-child(3) {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/img3.jpg);
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 220px;
+    max-height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 5px;
+}
+
+.video-content {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/building.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 30vh;
+    color: white;
+    margin: 7rem 0;
+}
+
+.video-content p {
+    text-align: end;
+}
+
+.video-content i {
+    color: white;
+}
+
+.video-content .col-md-6 {
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.chart {
+    padding: 7rem 0;
+}
+
+.chart .chart-img img {
+    width: 30rem;
+}
