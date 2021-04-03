@@ -233,13 +233,13 @@ a:hover {
     color: #0e305d;
 }
 
-.latest-post .col-md-2 p {
+.latest-post .col p {
     color: #000;
     text-align: center;
     font-weight: 600;
     border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 3px;
-    padding: 0.5rem 3rem 0.5rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 .latest-post .col-md-10 p {
@@ -283,4 +283,23 @@ a:hover {
 
 .footer {
     background: #161b27;
+}
+
+
+/* media query */
+
+@media (max-width: 768px) {
+    .video-content .col-md-6 p {
+        font-size: 1.5rem;
+        text-align: start;
+        display: flex;
+    }
+    .video-content .col-md-6:nth-child(2) {
+        display: flex;
+        justify-content: center;
+    }
+    .owl-carousel .active {
+        width: 180px !important;
+        right: 0 !important;
+    }
 }
