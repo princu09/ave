@@ -6,8 +6,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    overflow-x: hidden;
+html {
+    overflow-x: hidden !important;
 }
 
 .heading-title {
@@ -305,5 +305,14 @@ a:hover {
     .owl-carousel .active {
         width: 180px !important;
         right: 0 !important;
+    }
+}
+
+@media (max-width: 361px) {
+    .chart-img img {
+        width: 20rem !important;
+    }
+    .contact-us iframe {
+        width: 350px;
     }
 }
