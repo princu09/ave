@@ -9,6 +9,17 @@
 body,
 html {
     overflow-x: hidden !important;
+    scroll-behavior: smooth;
+}
+
+.top-btn button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background: none;
 }
 
 .heading-title {
