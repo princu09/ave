@@ -250,6 +250,10 @@ a:hover {
     padding: 7rem 0;
 }
 
+.contact-us .row {
+    margin-top: 7rem;
+}
+
 .contact-form input {
     border: none;
     border-bottom: 1px solid black;
